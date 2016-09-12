@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "6"
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: e99145f3-93ff-4f5e-a967-9e6b7e28bf6e
+  app: frontend-simple-server
+  all_branches: true
