@@ -1,6 +1,6 @@
 let express = require('express'),
     app = express();
-let PORT = 8081;
+let PORT = process.env.PORT || 8081;
 app.use(express.static(__dirname + '/public'));
 
 app.listen(PORT);
