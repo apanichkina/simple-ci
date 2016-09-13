@@ -1,14 +1,13 @@
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 branches:
   only:
   - master
-
 deploy:
   provider: heroku
   api_key:
-    secure: e99145f3-93ff-4f5e-a967-9e6b7e28bf6e
-  app: frontend-simple-server
-  all_branches: true
+    secure: eXEJDbybYJoNx0jcuBkL720TMfVhp2VkVqYY9ecgrMIWms92wEHTpBl4mvuJ9fShfB9q4obkSRmaVEhzy+R0GNATBJD6wi4M0QJQY3BU4JysXkI32hP3KWWYdfCBfwitVWBC1VfNhCxg3B6KaXtlCc1tYfWehFKbQYAnOv9Cl8KQZx3GGdkvpa/Jaaj6+BWmQEgLv5L6Do+MpcEXmb229fH3ZxIKWhDn/xS5kilSgbCn3Gx2afSIggsrJxAlW25H6YXvwWbKCvVkYZ7LBF8C/HkHl3gEHalUxgyDACkZimep1faip4UwcNesjfEGoEId+v2DsdOCu3Yy7nj4995SWzvDI1+/POP3jMyc3ZrugIdgyXELlH+yy25g7xv0ar1C2CjCD25+aQ52m0BeGpIG6Nwug0hewo+jgK6KM2xadqgrh21lg7QxLCVkBwHDeMO+K4JkejwA0wTs6yfVWKe9JUyz0/S0DGWYEdrFoeSZE4839jLnKNwsGRFT34Rc5CqBZDheFpz+383/GDo07KEHGqrMKlFfnebF/ij/x4yPDKnV8jghxz8CnpNwSfEYJCjcDIqa1adFRy2yy/s182q9uiddecyvWWtjLXwHpKDgER7Ul2gCQ4/yXjshATB+O1PqJzH4sUEOIsad4TOMOvH4njCTbM6G2s2ILROFr5G9ETs=
+  app: frontend-simple-ci
+  on:
+    repo: apanichkina/simple-ci

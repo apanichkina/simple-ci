@@ -5,4 +5,4 @@ let obj = require('./public/js/main');
 let assert = require('assert');
 
 assert.equal(obj.hello('Test'), 'Hello, Test');
-assert.equal(obj.ok('Test'), 'Ol, Test');
+assert.equal(obj.ok('Test'), 'OK, Test');
